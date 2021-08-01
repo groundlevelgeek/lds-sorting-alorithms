@@ -1,4 +1,4 @@
-package org.groundlevelgeek.InsertionSort;
+package org.groundlevelgeek.insertionSort;
 
 import java.util.Arrays;
 
@@ -7,6 +7,12 @@ public class InsertionSort {
     public static void main(String[] args) {
 
         int[] array = new int[]{20, 24, 35, 40, 25, 15, 7, -15, 55, 1, -22};
+        insertionSort(array);
+
+    }
+
+    public static void insertionSort(int[] array) {
+
         System.out.println("\n\n");
         Arrays.stream(array).mapToObj(element -> element + ", ").forEach(System.out::print);
 

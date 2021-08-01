@@ -1,4 +1,4 @@
-package org.groundlevelgeek.SelectionSort;
+package org.groundlevelgeek.selectionSort;
 
 import java.util.Arrays;
 
